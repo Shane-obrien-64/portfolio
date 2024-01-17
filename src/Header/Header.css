@@ -1,0 +1,32 @@
+.header {
+  background-color: #232d3f;
+  color: #fff;
+  margin: 0;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1px solid #005b41;
+}
+
+.header__title {
+  padding: 0;
+  margin: 0;
+}
+
+.header__logo {
+  height: 30px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header__link {
+  height: 30px;
+}
+
+.header__link-img {
+  height: 30px;
+}

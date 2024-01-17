@@ -1,0 +1,10 @@
+.app {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.app__section {
+  height: 600px;
+}

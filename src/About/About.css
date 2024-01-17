@@ -1,0 +1,31 @@
+.about {
+  background-color: #232d3f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  text-align: left;
+}
+
+.about__intro {
+  margin: 20px 0 0;
+  margin: 20px 100px 0;
+}
+.about__intro-text {
+  margin: 0;
+}
+
+.about__title {
+  margin: 5px 0;
+  padding: 0;
+  color: #008170;
+}
+
+.about__text {
+  margin: 20px 100px;
+}
+
+.about__text-em {
+  font-weight: 700;
+  color: #008170;
+}

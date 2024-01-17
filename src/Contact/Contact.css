@@ -1,0 +1,14 @@
+.contact {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.contact__link {
+  height: 30px;
+}
+
+.contact__link-img {
+  height: 30px;
+}
