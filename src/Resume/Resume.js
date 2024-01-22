@@ -1,11 +1,14 @@
+import resume from "../utils/resume.pdf";
 import "./Resume.css";
 
 const Resume = () => {
   return (
     <section className="resume app__section">
-      <div>Resume</div>
-      <div>Resume</div>
-      <div>Resume</div>
+      <object
+        className="resume__file"
+        data={resume}
+        type="application/pdf"
+      ></object>
     </section>
   );
 };
