@@ -1,6 +1,5 @@
 .nav {
   display: flex;
-  /* max-width: 400px; */
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -8,4 +7,10 @@
 
 .nav__link {
   margin: 0 auto;
+  border: none;
+  font-family: Verdana;
+  text-decoration: none;
+  background-color: #232d3f;
+  color: #fff;
+  font-size: 20px;
 }

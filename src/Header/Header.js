@@ -2,10 +2,14 @@ import Nav from "../Nav/Nav";
 import logo from "../Images/logo.svg";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ goToMain, goToProjects, goToResume }) => {
   return (
     <header className="header">
-      <Nav />
+      <Nav
+        goToMain={goToMain}
+        goToProjects={goToProjects}
+        goToResume={goToResume}
+      />
       <img src={logo} className="header__logo" alt="logo" />
     </header>
   );

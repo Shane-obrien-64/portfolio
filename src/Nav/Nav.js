@@ -1,11 +1,17 @@
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({ goToMain, goToProjects, goToResume }) => {
   return (
     <nav className="nav">
-      <a className="nav__link">About</a>
-      <a className="nav__link">Projects</a>
-      <a className="nav__link">Resume</a>
+      <button onClick={goToMain} className="nav__link">
+        About
+      </button>
+      <button onClick={goToProjects} className="nav__link">
+        Projects
+      </button>
+      <button onClick={goToResume} className="nav__link">
+        Resume
+      </button>
     </nav>
   );
 };
