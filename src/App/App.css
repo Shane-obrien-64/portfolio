@@ -5,6 +5,6 @@
   font-family: Verdana;
 }
 
-.app__section {
-  height: 600px;
+html {
+  height: 100%;
 }
