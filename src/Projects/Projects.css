@@ -1,22 +1,26 @@
 .projects {
-  height: 600px;
+  height: 700px;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .projects__list {
   padding: 0;
   margin: 100px 0;
-  min-width: 300px;
+  width: 70%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 40px;
+  /* flex-wrap: wrap; */
 }
 
 .projects__item {
+  background-color: #232d3f;
+  color: #fff;
   height: 300px;
-  width: 300px;
+  width: 100%;
   list-style: none;
   border: 1px solid #000;
 }
