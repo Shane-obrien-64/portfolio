@@ -15,8 +15,8 @@
 }
 
 .projects__item {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   list-style: none;
   border: 1px solid #000;
 }
