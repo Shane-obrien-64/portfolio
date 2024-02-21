@@ -15,8 +15,8 @@
   /* flex-wrap: wrap; */
 }
 
-/* rename to projects__card-x */
-.projects__item {
+/* rename to projects__card -x */
+.projects__card {
   margin: 0;
   padding: 0;
   background-color: #232d3f;
@@ -28,7 +28,7 @@
   border-radius: 4px;
 }
 
-.projects__item-container {
+.projects__card-container {
   height: 60px;
   padding: 0;
   margin: 10px 14px;
@@ -37,12 +37,12 @@
   align-items: center;
 }
 
-.projects__item-title {
+.projects__card-title {
   margin: 0;
   padding: 0;
 }
 
-.projects__item-logo {
+.projects__card-logo {
   margin: 0;
   padding: 0;
   height: 60px;
