@@ -24,6 +24,7 @@ const About = () => {
         creating elegant code and solving intricate problems in this dynamic and
         ever-evolving landscape.
       </p>
+      {/* add some cool stuff here to expand the page */}
     </section>
   );
 };
