@@ -3,11 +3,13 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Resume from "../Resume/Resume";
 import Footer from "../Footer/Footer";
+import React, { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
 
 function App() {
   const navigate = useNavigate();
+  const [selectedCard, setSelectedCard] = useState(null);
 
   const goToMain = () => {
     navigate("/");

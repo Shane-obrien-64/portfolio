@@ -7,6 +7,7 @@ import indexSS from "../Images/index_sc.png";
 import "./Projects.css";
 
 const Projects = () => {
+  const handleCardClick = () => {};
   return (
     <section className="projects app__section">
       <ul className="projects__list">
