@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   const navigate = useNavigate();
   const [selectedCard, setSelectedCard] = useState(null);
-  const [activeModal, setActiveModal] = useState("preview");
+  const [activeModal, setActiveModal] = useState("");
 
   const goToMain = () => {
     navigate("/");
