@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   const navigate = useNavigate();
   const [selectedCard, setSelectedCard] = useState(null);
-  const [activeModal, setActiveModal] = useState("");
+  const [activeModal, setActiveModal] = useState(true);
 
   const goToMain = () => {
     navigate("/");
@@ -20,6 +20,9 @@ function App() {
   };
   const goToResume = () => {
     navigate("/resume");
+  };
+  const closeModal = () => {
+    setActiveModal(false);
   };
   return (
     <div className="app">
@@ -34,8 +37,8 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
-      {activeModal === "preview" && (
-        <div className="modal">
+      {activeModal === true && (
+        <div className="modal" onClick={closeModal}>
           <div className="modal__container">
             <h2 className="modal__title">Title</h2>
             <p className="modal__text">
