@@ -29,7 +29,6 @@ function App() {
   };
   const handleSelectedCard = (card) => {
     setSelectedCard(card);
-    console.log(selectedCard);
     setActiveModal(true);
   };
   return (

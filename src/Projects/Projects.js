@@ -18,13 +18,14 @@ const Projects = ({ handleSelectedCard }) => {
       title: "inDex",
       logoSrc: inDexLogo,
       imgSrc: indexSS,
-      text: "Offering a vibrant platform reminiscent of Instagram, this web app invites users to share their photographic adventures across America. Mastering fundamental web development techniques, its frontend boasts responsive design and seamless integration of third-party APIs, showcasing foundational skills in JavaScript, CSS3, and HTML5.",
+      text: "Showcasing a fusion of creativity and functionality, InDex is a dynamic single-page application proficiently crafted with React.js and CSS3. Demonstrating expertise in API integration, it elegantly displays data from third-party sources while employing adaptive design principles for an optimized user experience.",
     },
+
     {
       title: "Around the US",
       logoSrc: aroundtheUSLogo,
       imgSrc: atusSS,
-      text: "Showcasing a fusion of creativity and functionality, InDex is a dynamic single-page application proficiently crafted with React.js and CSS3. Demonstrating expertise in API integration, it elegantly displays data from third-party sources while employing adaptive design principles for an optimized user experience.",
+      text: "Offering a vibrant platform reminiscent of Instagram, this web app invites users to share their photographic adventures across America. Mastering fundamental web development techniques, its frontend boasts responsive design and seamless integration of third-party APIs, showcasing foundational skills in JavaScript, CSS3, and HTML5.",
     },
   ];
   const handleCardClick = (card) => {
