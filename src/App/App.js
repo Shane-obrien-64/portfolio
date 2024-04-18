@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   const navigate = useNavigate();
   const [selectedCard, setSelectedCard] = useState(null);
-  const [activeModal, setActiveModal] = useState(true);
+  const [activeModal, setActiveModal] = useState(false);
 
   const goToMain = () => {
     navigate("/");
