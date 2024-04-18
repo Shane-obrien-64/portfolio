@@ -24,6 +24,12 @@
   font-family: Verdana;
 }
 
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .modal__title {
   font-size: 30px;
   margin: 0;
