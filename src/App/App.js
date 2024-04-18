@@ -28,10 +28,10 @@ function App() {
     }
   };
   const handleSelectedCard = (card) => {
-    setActiveModal(true);
     setSelectedCard(card);
+    console.log(selectedCard);
+    setActiveModal(true);
   };
-
   return (
     <div className="app">
       <Header
@@ -41,15 +41,15 @@ function App() {
       />
       <Routes>
         <Route path="*" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route
+          path="/projects"
+          element={<Projects handleSelectedCard={handleSelectedCard} />}
+        />
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
       {activeModal === true && (
-        <Modal
-          closeModal={closeModal}
-          // handleSelectedCard={handleSelectedCard}
-        />
+        <Modal closeModal={closeModal} selectedCard={selectedCard} />
       )}
     </div>
   );

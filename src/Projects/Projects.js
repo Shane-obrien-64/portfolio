@@ -1,37 +1,55 @@
-import wtwr from "../Images/wtwr.svg";
-import inDex from "../Images/inDex.svg";
-import aroundtheUS from "../Images/aroundtheUS.svg";
+import wtwrLogo from "../Images/wtwr.svg";
+import inDexLogo from "../Images/inDex.svg";
+import aroundtheUSLogo from "../Images/aroundtheUS.svg";
 import wtwrSS from "../Images/wtwr_sc.png";
 import atusSS from "../Images/atus_sc.png";
 import indexSS from "../Images/index_sc.png";
 import "./Projects.css";
 
-const Projects = () => {
-  const handleCardClick = () => {};
+const Projects = ({ handleSelectedCard }) => {
+  const cardData = [
+    {
+      title: "WTWR",
+      logoSrc: wtwrLogo,
+      imgSrc: wtwrSS,
+      text: "Seamlessly blending fashion and forecast, WTWR helps users dress appropriately for the weather by curating outfits from their wardrobe. Its frontend, built with React.js, ensures a user-friendly experience, while the robust backend, powered by MongoDB and Express.js, delivers accurate recommendations.",
+    },
+    {
+      title: "inDex",
+      logoSrc: inDexLogo,
+      imgSrc: indexSS,
+      text: "Offering a vibrant platform reminiscent of Instagram, this web app invites users to share their photographic adventures across America. Mastering fundamental web development techniques, its frontend boasts responsive design and seamless integration of third-party APIs, showcasing foundational skills in JavaScript, CSS3, and HTML5.",
+    },
+    {
+      title: "Around the US",
+      logoSrc: aroundtheUSLogo,
+      imgSrc: atusSS,
+      text: "Showcasing a fusion of creativity and functionality, InDex is a dynamic single-page application proficiently crafted with React.js and CSS3. Demonstrating expertise in API integration, it elegantly displays data from third-party sources while employing adaptive design principles for an optimized user experience.",
+    },
+  ];
+  const handleCardClick = (card) => {
+    handleSelectedCard(card);
+  };
   return (
     <section className="projects app__section">
       <ul className="projects__list">
-        <li className="projects__card">
-          <div className="projects__card-container">
-            <h2 className="projects__card-title">WTWR</h2>
-            <img src={wtwr} className="projects__card-logo" />
-          </div>
-          <img className="projects__image" src={wtwrSS} />
-        </li>
-        <li className="projects__card">
-          <div className="projects__card-container">
-            <h2 className="projects__card-title">inDex</h2>
-            <img src={inDex} className="projects__card-logo" />
-          </div>
-          <img className="projects__image" src={indexSS} />
-        </li>
-        <li className="projects__card">
-          <div className="projects__card-container">
-            <h2 className="projects__card-title">Around the US</h2>
-            <img src={aroundtheUS} className="projects__card-logo" />
-          </div>
-          <img className="projects__image" src={atusSS} />
-        </li>
+        {cardData.map((card, index) => (
+          <li key={index} className="projects__card">
+            <div className="projects__card-container">
+              <h2 className="projects__card-title">{card.title}</h2>
+              <img
+                src={card.logoSrc}
+                className="projects__card-logo"
+                alt={`${card.title} Logo`}
+              />
+            </div>
+            <img
+              className="projects__image"
+              src={card.imgSrc}
+              onClick={() => handleCardClick(card)}
+            />
+          </li>
+        ))}
       </ul>
     </section>
   );
