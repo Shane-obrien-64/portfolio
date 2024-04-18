@@ -37,6 +37,14 @@
   font-family: Verdana;
 }
 
+.modal__logo {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 80px;
+  cursor: pointer;
+}
+
 .modal__text {
   padding: 0;
   margin: 25px 0;

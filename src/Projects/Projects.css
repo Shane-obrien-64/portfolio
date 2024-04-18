@@ -12,10 +12,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 40px;
-  /* flex-wrap: wrap; */
 }
 
-/* rename to projects__card -x */
 .projects__card {
   margin: 0;
   padding: 0;
