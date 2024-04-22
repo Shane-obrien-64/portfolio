@@ -1,4 +1,5 @@
 import Contact from "../Contact/Contact";
+import headshot from "../Images/headshot.jpg";
 import "./About.css";
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
         <p className="about__intro-text">Hi, im</p>
         <h1 className="about__title">Shane O'Brien</h1>
         <Contact />
+        <img className="about__image" src={headshot} />
       </div>
 
       <p className="about__text">
@@ -24,7 +26,6 @@ const About = () => {
         creating elegant code and solving intricate problems in this dynamic and
         ever-evolving landscape.
       </p>
-      {/* add some cool stuff here to expand the page */}
     </section>
   );
 };
