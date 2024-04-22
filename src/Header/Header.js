@@ -10,7 +10,7 @@ const Header = ({ goToMain, goToProjects, goToResume }) => {
         goToProjects={goToProjects}
         goToResume={goToResume}
       />
-      <img src={logo} className="header__logo" alt="logo" />
+      <img onClick={goToMain} src={logo} className="header__logo" alt="logo" />
     </header>
   );
 };

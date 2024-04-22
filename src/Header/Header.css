@@ -15,6 +15,7 @@
 
 .header__logo {
   height: 30px;
+  cursor: pointer;
 }
 
 .header__links {
