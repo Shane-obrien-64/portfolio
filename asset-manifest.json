@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ef9831fc.css",
+    "main.js": "/portfolio/static/js/main.61f806a6.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.bb53fb6df096b796c960.jpg",
+    "static/media/atus_sc.png": "/portfolio/static/media/atus_sc.4f58e787f0c833031dc5.png",
+    "static/media/index_sc.png": "/portfolio/static/media/index_sc.dead836d62ad331225a3.png",
+    "static/media/wtwr_sc.png": "/portfolio/static/media/wtwr_sc.bace649bd8077100e97e.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.6e57af6b47511778ce87.pdf",
+    "static/media/aroundtheUS.svg": "/portfolio/static/media/aroundtheUS.1ddb2bdc2582ce46650a16f0f59c5001.svg",
+    "static/media/wtwr.svg": "/portfolio/static/media/wtwr.d92eeb76d379a3b37ce69508497aef9c.svg",
+    "static/media/github-mark-white.svg": "/portfolio/static/media/github-mark-white.7bbfbe582501cbd3c440b55973823e25.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin_icon.svg": "/portfolio/static/media/linkedin_icon.c2aadbf54fdafdf10e0d1edffe7e0386.svg",
+    "static/media/inDex.svg": "/portfolio/static/media/inDex.941bbbcb2b4fee5a675bdb0d6af74097.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.7f02de9998f049d3349bbb8b8ec804ee.svg",
+    "main.ef9831fc.css.map": "/portfolio/static/css/main.ef9831fc.css.map",
+    "main.61f806a6.js.map": "/portfolio/static/js/main.61f806a6.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef9831fc.css",
+    "static/js/main.61f806a6.js"
+  ]
+}
