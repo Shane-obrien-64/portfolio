@@ -6,9 +6,11 @@ const About = () => {
   return (
     <section className="about app__section">
       <div className="about__intro">
-        <p className="about__intro-text">Hi, im</p>
-        <h1 className="about__title">Shane O'Brien</h1>
-        <Contact />
+        <div>
+          <p className="about__intro-text">Hi, im</p>
+          <h1 className="about__title">Shane O'Brien</h1>
+          <Contact />
+        </div>
         <img className="about__image" src={headshot} />
       </div>
 
@@ -26,6 +28,10 @@ const About = () => {
         creating elegant code and solving intricate problems in this dynamic and
         ever-evolving landscape.
       </p>
+
+      <div className="about__photos">
+        <img className="about__photo" src={""} alt={""} />
+      </div>
     </section>
   );
 };
