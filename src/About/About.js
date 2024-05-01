@@ -17,9 +17,11 @@ const About = () => {
       <p className="about__text">
         A dedicated
         <span className="about__text-em"> Full-Stack Web Developer</span> based
-        in Orlando, FL, I bring a background in digital marketing and sound
-        engineering to my current technical journey. I seamlessly blend these
-        diverse experiences for a holistic approach to web development.
+        in Orlando, FL, I bring a background in{" "}
+        <span className="about__text-em">digital marketing</span> and
+        <span className="about__text-em"> sound engineering</span> to my current
+        technical journey. I seamlessly blend these diverse experiences for a
+        holistic approach to web development.
       </p>
       <p className="about__text">
         Embarking on my coding journey in 2022, I've been on an exciting quest
