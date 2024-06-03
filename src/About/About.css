@@ -41,3 +41,13 @@
   font-weight: 700;
   color: #008170;
 }
+
+@media screen and (max-width: 500px) {
+  .about__intro {
+    flex-direction: column;
+  }
+
+  .about {
+    height: 100%;
+  }
+}
