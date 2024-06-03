@@ -58,3 +58,15 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 550px) {
+  .projects__card {
+    width: 350px;
+
+    height: 255px;
+  }
+  .projects__image {
+    width: 350px;
+    height: 175px;
+  }
+}

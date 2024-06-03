@@ -42,7 +42,7 @@
   color: #008170;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .about__intro {
     flex-direction: column;
   }
